@@ -46,10 +46,19 @@ For your second milestone, explain what you've worked on since your previous mil
 <iframe width="560" height="315" src="https://www.youtube.com/embed/XBWzefHsQAk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 For your first milestone, describe what your project is and how you plan to build it. You can include:
-- An explanation about the different components of your project and how they will all integrate together
-- Technical progress you've made so far
-- Challenges you're facing and solving in your future milestones
-- What your plan is to complete your project
+- This RC car has 2 chassis. The lower chassis holds the 4 motors, 4 wheels, and the line tracking module. Each motor controls one wheel. The line tracking module lets the RC car follow a line made out
+  of tape on the ground. The upper chassis contains an ultrasonic sensor with the SG90 motor. It also contains the camera module, Arduino UNO, IO expansion board, and the cell box. The SG90 motor is
+  attached to the ultrasonic sensor, and the camera module is attached to the ultrasonic sensor. This means that both the ultrasonic sensor and the camera module can turn 180°. The ultrasonic sensor can
+  be used in obstacle avoidance mode, where it checks if there is an obstacle in front of it and decided if it should move in that direction or not. You can use the ultrasonic sensor for auto-follow
+  mode which lets it follow anything within 20 cm.  The camera module lets you use it through the app and control the RC car. The Arduino UNO is what controls all the components. The IO extension board
+  helps wire all of the components into the Arduino UNO. And the cell box powers all the components.
+  
+- I have finished building the RC car and wiring all the components. And then completed uploading the main code to the car.
+  
+- I faced the challenge of uploading the code to the arduino UNO. I fixed it by taking off the hat on the arduino and then upload it using a usb A to A adapter. Then after the upload put the extention
+  hat back on.
+  
+- From here I am think of making modifications, but I am still not sure what modifications to make.
 
 # Schematics 
 Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 

@@ -55,7 +55,7 @@ For your first milestone, describe what your project is and how you plan to buil
   
 - I have finished building the RC car and wiring all the components. And then completed uploading the main code to the car.
   
-- I faced the challenge of uploading the code to the arduino UNO. I fixed it by taking off the hat on the arduino and then upload it using a usb A to A adapter. Then after the upload put the extention
+- I faced the challenge of uploading the code to the arduino UNO. I fixed it by taking off the hat on the arduino and then upload it using a usb C to A adapter. Then after the upload put the extention
   hat back on.
   
 - From here I am think of making modifications, but I am still not sure what modifications to make.

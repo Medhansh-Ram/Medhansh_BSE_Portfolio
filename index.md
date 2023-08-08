@@ -34,6 +34,14 @@ For your final milestone, explain the outcome of your project. Key details to in
 <iframe width="560" height="315" src="https://www.youtube.com/embed/y3VAmNlER5Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 For your second milestone, explain what you've worked on since your previous milestone. You can highlight:
+
+- To adjust the turning speed of the RC Car, we first needed to locate where the turning speed was defined, understand how it works, and learn how to adjust it. So, we began by examining a simpler demo
+  code which controlled all the movements of the RC Car (forward, backward, left, right, etc.). We identified the section of the code responsible for controlling the motors during left and right turns,
+  and then we conducted experiments. Initially, we attempted to reduce the speed of both sets of motors by half, and this adjustment proved successful. Next, we located the part of the main code that
+  defines the turning speed and decreased it by half. This alteration allows the RC Car to execute slower turns when the left or right button on the IR remote is pressed, resulting in turns ranging
+  between 30 to 90 degrees instead of a full 180° rotation. We also discovered that the extent to which the RC Car turns can be influenced by the surface it is driven on. For instance, it will make
+  small turns on carpet compared to larger turns on a harder surface like wood or marble. Presently, we can further refine the turning speed, but for now, this progress marks a solid starting point for   more modifications.
+  
 - Technical details of what you've accomplished and how they contribute to the final goal
 - What has been surprising about the project so far
 - Previous challenges you faced that you overcame
@@ -41,11 +49,8 @@ For your second milestone, explain what you've worked on since your previous mil
 
 # First Milestone
 
-**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
-
 <iframe width="560" height="315" src="https://www.youtube.com/embed/XBWzefHsQAk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-For your first milestone, describe what your project is and how you plan to build it. You can include:
 - This RC car has 2 chassis. The lower chassis holds the 4 motors, 4 wheels, and the line tracking module. Each motor controls one wheel. The line tracking module lets the RC car follow a line made out
   of tape on the ground. The upper chassis contains an ultrasonic sensor with the SG90 motor. It also contains the camera module, Arduino UNO, IO expansion board, and the cell box. The SG90 motor is
   attached to the ultrasonic sensor, and the camera module is attached to the ultrasonic sensor. This means that both the ultrasonic sensor and the camera module can turn 180°. The ultrasonic sensor can

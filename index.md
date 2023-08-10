@@ -7,12 +7,11 @@ You should comment out all portions of your portfolio that you have not complete
 <!--- Anything between these symbols will not render on the published site -->
 ```
 
-| **Engineer** | **School** | **Area of Interest** | **Grade** |
-|:--:|:--:|:--:|:--:|
 | Medhansh G | BASE  | Areospace Engineering | Incoming Freshman
 
 ![Headstone Image](IMG_5945.jpg)
-  
+
+```  
 # Final Milestone
 
 **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
@@ -24,16 +23,13 @@ For your final milestone, explain the outcome of your project. Key details to in
 - What your biggest challenges and triumphs were at BSE
 - A summary of key topics you learned about
 - What you hope to learn in the future after everything you've learned at BSE
-
+```
 
 
 # Second Milestone
 
-**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/y3VAmNlER5Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-For your second milestone, explain what you've worked on since your previous milestone. You can highlight:
+<iframe width="560" height="315" src="https://www.youtube.com/embed/SKRgafY-li4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 - To adjust the turning speed of the RC Car, we first needed to locate where the turning speed was defined, understand how it works, and learn how to adjust it. So, we began by examining a simpler demo
   code which controlled all the movements of the RC Car (forward, backward, left, right, etc.). We identified the section of the code responsible for controlling the motors during left and right turns,
@@ -41,11 +37,8 @@ For your second milestone, explain what you've worked on since your previous mil
   defines the turning speed and decreased it by half. This alteration allows the RC Car to execute slower turns when the left or right button on the IR remote is pressed, resulting in turns ranging
   between 30 to 90 degrees instead of a full 180° rotation. We also discovered that the extent to which the RC Car turns can be influenced by the surface it is driven on. For instance, it will make
   small turns on carpet compared to larger turns on a harder surface like wood or marble. Presently, we can further refine the turning speed, but for now, this progress marks a solid starting point for   more modifications.
+
   
-- Technical details of what you've accomplished and how they contribute to the final goal
-- What has been surprising about the project so far
-- Previous challenges you faced that you overcame
-- What needs to be completed before your final milestone 
 
 # First Milestone
 
